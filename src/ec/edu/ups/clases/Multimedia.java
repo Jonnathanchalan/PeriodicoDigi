@@ -6,8 +6,12 @@
 package ec.edu.ups.clases;
 
 /**
- *
+ * multimedia
+ * clase que permite dar formato el tamaño y la ubicacion de las noticias
+ * @version 2.0
+ * @since 2019
  * @author jonnathan
+ * 
  */
 public class Multimedia {
    
@@ -22,7 +26,7 @@ public class Multimedia {
           this.codigo=codigo;
       }
       
-       public void setFormato(String Formato){
+       public void setformato(String formato){
           this.formato=formato;
       }
        public void setTamañoByte(String TamañoByte){
