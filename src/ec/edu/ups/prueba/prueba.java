@@ -26,6 +26,8 @@ public class prueba {
         facebook.setCodigo(1);
         facebook.setNombre("facebook");
         facebook.setUrl("www.facebook.com");
+        System.out.print(facebook);
+        
         
         deportes.setCodigo(2);
         deportes.setNombre("deportes");
@@ -41,7 +43,7 @@ public class prueba {
         System.out.println("codigo:"+cod);
         
         String res = facebook.getNombre();
-        System.out.println("nombre:"+res);
+        System.out.println(res+"Nombre:");
         
         
         String pag=facebook.getUrl();
