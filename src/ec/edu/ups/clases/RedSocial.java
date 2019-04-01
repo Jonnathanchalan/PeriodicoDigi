@@ -6,8 +6,12 @@
 package ec.edu.ups.clases;
 
 /**
- *
+ * RedSocial
+ * clase que permite guardar las redes sociales
+ * @version 2.0
+ * @since 2019
  * @author jonnathan
+ * 
  */
 public class RedSocial {
     protected int codigo;
@@ -18,8 +22,6 @@ public class RedSocial {
       public void setCodigo(int codigo){
           this.codigo=codigo;
       }
-      
-      
       
       public void setNombre(String nombre){
           this.nombre=nombre;
@@ -39,7 +41,4 @@ public class RedSocial {
        public String getUrl(){
            return this.url;
        } 
-      
-
-    
 }

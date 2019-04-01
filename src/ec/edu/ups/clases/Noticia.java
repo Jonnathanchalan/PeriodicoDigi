@@ -6,7 +6,10 @@
 package ec.edu.ups.clases;
 
 /**
- *
+ * Noticia
+ * clase que permite elejir el titulo,autor,fecha,contenido multimedia
+ * @version 2.0
+ * @since 2019
  * @author jonnathan
  */
 public class Noticia {

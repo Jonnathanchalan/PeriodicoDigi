@@ -6,11 +6,12 @@
 package ec.edu.ups.clases;
 
 /**
- *
- *
- *
- *
+ *Seccion
+ * clase que permite separar varias tipos de noticias
+ * @version 2.0
+ * @since 2019
  * @author jonnathan
+ * 
  */
 public class Seccion {
     protected int codigo;
@@ -21,8 +22,6 @@ public class Seccion {
       public void setCodigo(int codigo){
           this.codigo=codigo;
       }
-      
-      
       
       public void setNombre(String nombre){
           this.nombre=nombre;

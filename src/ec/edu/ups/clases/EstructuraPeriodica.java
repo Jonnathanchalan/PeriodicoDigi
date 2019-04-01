@@ -6,8 +6,12 @@
 package ec.edu.ups.clases;
 
 /**
- *
+ * EstructuraPeriodica
+ * clase que va a guardar estructura de las noticias 
+ *@version 2.0
+ * @since  2019
  * @author jonnathan
+ * 
  */
 public class EstructuraPeriodica {
     protected int codigo;
@@ -18,14 +22,9 @@ public class EstructuraPeriodica {
       public void setCodigo(int codigo){
           this.codigo=codigo;
       }
-      
-      
-      
       public void setNombre(String nombre){
           this.nombre=nombre;
       }
-      
-      
        public void setPeriodico(String periodico){
           this.periodico=periodico;
       }
@@ -39,6 +38,4 @@ public class EstructuraPeriodica {
        public String getPeriodico(){
            return this.periodico;
        } 
-
-    
 }

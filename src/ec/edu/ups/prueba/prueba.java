@@ -15,11 +15,12 @@ import ec.edu.ups.clases.Noticia;
  * @author jonnathan
  */
 public class prueba {
-    public static void main(String[] args){
+    public static void main(String[] args, String formato){
         RedSocial facebook =new RedSocial();
         Seccion deportes=new Seccion();
         Multimedia imagenes=new Multimedia();
         EstructuraPeriodica portada=new EstructuraPeriodica();
+        Noticia contenido=new Noticia();
         
         
         facebook.setCodigo(1);
@@ -29,6 +30,11 @@ public class prueba {
         deportes.setCodigo(2);
         deportes.setNombre("deportes");
         deportes.setNoticias("noticias");
+        
+        imagenes.setCodigo(3);
+        imagenes.setformato(formato);
+        imagenes.setTamañoByte(formato);
+        
         
         
         int cod = facebook.getCodigo();
