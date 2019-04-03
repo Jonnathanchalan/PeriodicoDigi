@@ -5,6 +5,8 @@
  */
 package ec.edu.ups.clases;
 
+import java.util.Date;
+
 /**
  * multimedia
  * clase que permite dar formato el tamaño y la ubicacion de las noticias
@@ -17,6 +19,7 @@ public class Multimedia {
    
     protected int codigo;
     private String formato;
+    private Date fechacreacion;
      private String tamañobytes;
      private String[] ubicacion;
      private String nombre;

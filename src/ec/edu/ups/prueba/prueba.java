@@ -33,9 +33,7 @@ public class prueba {
         deportes.setNombre("deportes");
         deportes.setNoticias("noticias");
         
-        imagenes.setCodigo(3);
-        imagenes.setformato(formato);
-        imagenes.setTamañoByte(formato);
+       
         
         
         
