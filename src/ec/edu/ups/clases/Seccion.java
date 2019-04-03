@@ -5,6 +5,9 @@
  */
 package ec.edu.ups.clases;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *Seccion
  * clase que permite separar varias tipos de noticias
@@ -16,8 +19,14 @@ package ec.edu.ups.clases;
 public class Seccion {
     protected int codigo;
     private String nombre;
-     private String noticias;
+     private List<Noticia> noticias;
       private String[] publicaciones ;
+      
+      public Seccion(){
+          
+          noticias=new ArrayList<>();
+    
+}
       
       public void setCodigo(int codigo){
           this.codigo=codigo;
@@ -42,7 +51,11 @@ public class Seccion {
            return this.noticias;
        } 
 
-    
+    public void agregarNoticia(Noticia,noticia){
+        notic
+        this.noticias[]=noticias;
+        
+    }
     }
       
 
