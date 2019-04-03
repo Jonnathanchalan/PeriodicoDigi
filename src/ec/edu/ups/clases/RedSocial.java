@@ -14,6 +14,11 @@ package ec.edu.ups.clases;
  * 
  */
 public class RedSocial {
+
+    @Override
+    public String toString() {
+        return "RedSocial{" + "nombre=" + nombre + ", url=" + url + '}';
+    }
     protected int codigo;
     private String nombre;
      private String url;
