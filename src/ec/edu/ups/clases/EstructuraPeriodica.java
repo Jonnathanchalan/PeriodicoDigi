@@ -14,6 +14,7 @@ package ec.edu.ups.clases;
  * 
  */
 public class EstructuraPeriodica {
+    
     protected int codigo;
     private String nombre;
      private String periodico;

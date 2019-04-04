@@ -17,6 +17,7 @@ import java.util.List;
  * 
  */
 public class Seccion {
+    
     protected int codigo;
     private String nombre;
      private List<Noticia> noticias;
@@ -37,9 +38,7 @@ public class Seccion {
       }
       
       
-       public void setNoticias(String noticias){
-          this.noticias=noticias;
-      }
+      
        
        public int getCodigo(){
            return this.codigo;
@@ -47,16 +46,9 @@ public class Seccion {
        public String getNombre(){
            return this.nombre;
        }
-       public String getNoticias(){
-           return this.noticias;
-       } 
-
-    public void agregarNoticia(Noticia,noticia){
-        notic
-        this.noticias[]=noticias;
-        
-    }
-    }
+      
+       
+       }
       
 
     
