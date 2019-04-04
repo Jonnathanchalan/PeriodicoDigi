@@ -19,6 +19,9 @@ import java.util.GregorianCalendar;
  * @author jonnathan
  */
 public class prueba {
+
+        
+    
     public prueba() throws InterruptedException{
         this.toString();
         this.wait(2);
@@ -101,6 +104,7 @@ public class prueba {
         SimpleDateFormat formato1=new SimpleDateFormat("dd/MM/yyyy");
             String fecha0Formateada= formato1.format(fecha0);
         GregorianCalendar fechaESPE=new GregorianCalendar(2019,4,30);
-       
     }
-}
+    }
+
+
