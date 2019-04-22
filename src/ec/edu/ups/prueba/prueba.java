@@ -21,7 +21,7 @@ import java.util.GregorianCalendar;
 public class prueba {
 
         
-    
+
     public prueba() throws InterruptedException{
         this.toString();
         this.wait(2);
